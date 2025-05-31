@@ -1,0 +1,57 @@
+/* page.module.css */
+
+/* Style for the nav container */
+.header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Style for the navigation list */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for each navigation item */
+.navList {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 15px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  color: #ff6347; /* Change color on hover */
+}
+
+.page {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.mainHeading {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #b0f555;
+  font-size: 14px;
+  color: #141d9c;
+}
